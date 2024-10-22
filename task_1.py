@@ -13,7 +13,7 @@ G.add_nodes_from(locations)
 
 # Додаємо ребра (шляхи між локаціями) з вагою (weight)
 edges_with_weights = [
-    ('Hogwarts', 'Hogsmeade', 5),        # Наприклад, час в годинах
+    ('Hogwarts', 'Hogsmeade', 5),       
     ('Hogwarts', 'Forbidden Forest', 3),
     ('Hogwarts', 'Platform 9¾', 8),
     ('Hogsmeade', 'The Burrow', 7),
