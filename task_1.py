@@ -30,8 +30,8 @@ G.add_weighted_edges_from(edges_with_weights)
 
 
 if __name__ == "__main__":
-    num_nodes = G.number_of_nodes()  # 4
-    num_edges = G.number_of_edges()  # 4
+    num_nodes = G.number_of_nodes()  
+    num_edges = G.number_of_edges()  
 
     degree_centrality = nx.degree_centrality(G)
     closeness_centrality = nx.closeness_centrality(G)
